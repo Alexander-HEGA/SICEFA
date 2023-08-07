@@ -68,8 +68,8 @@ export function validarLoginCentral() {
         document.getElementById('txtPassword').required = "required";
     } else {
         window.location.href = 'modulos/main.html';
+        
     }
-
 
 }
 
