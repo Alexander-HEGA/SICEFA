@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container-login {
+  max-width: 1200px; /* O cualquier otro valor que desees, como 1200px, por ejemplo */
+}
+
+
+.container{
+  width: 1200px;
+}
+
+#contenedorPrincipal{
+  background-color: rgb(224, 224, 224);
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.login{
+  width: 1200px;
+}
+
+.container-fluid,
+p {
+  flex: 1;
+}
+
+footer {
+  background-color: #008687;
+  flex-shrink: 0;
+}

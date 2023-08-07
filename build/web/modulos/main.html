@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Author: Cristian Estrada
+Date: July 07, 2023
+Email: cjestrada@utleon.edu.mx
+-->
+<html>
+    <head>
+        <title>Farmacia Medicamos Tu Vida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../img/logo.jpg" rel="shorcut icon">
+        <link href="../style/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="../style/bootstrap-5.3.0-dist/js/bootstrap.bundle.js" type="text/javascript"></script>
+        <script src="../style/bootstrap-5.3.0-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- Inicio Barra de Navegación -->
+            <nav class="navbar navbar-expand-md bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../img/brand3.png" class="img-fluid" style="height: 64pt"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active text-white" aria-current="page" href="main.html">Home</a>
+                            <a class="nav-link text-white" onclick="cargarModuloClientes()">Clientes</a>
+                            <a class="nav-link text-white" onclick="">Empleados</a>
+                            <a class="nav-link text-white" onclick="">Productos</a>
+                            <a class="nav-link text-white" onclick="">Pedidos</a>
+                            <a class="nav-link text-white" onclick="">Ventas</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Fin Barra de Navegación -->
+            
+            <!-- Inicio Home -->
+            <div id="contenedorPrincipal">
+                <!-- Carousel -->
+                <div class="d-flex justify-content-center align-content-center pt-2">
+                    <img src="../img/banner.png" class="d-block" alt="Slider 1" width="800" height="400">    
+                </div>
+                <!-- Fin Carousel -->
+            </div>
+            <footer class="mt-5 p-4 bg-primary text-white text-center">
+                <p>Copyright &copy; to Cristian Estrada 2023. All rights reserved.</p>
+            </footer>
+        </div>
+        <script src="controllerMain.js"></script>
+    </body>
+</html>
